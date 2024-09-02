@@ -11,7 +11,7 @@ export class Ant extends Pet {
     tier = 1;
     pack: Pack = 'Turtle';
     health = 2;
-    attack = 2;
+    attack = 6;
 
     constructor(protected logService: LogService,
         protected abilityService: AbilityService,
